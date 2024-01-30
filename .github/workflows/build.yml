@@ -32,4 +32,4 @@ jobs:
           push: true
           build-args: |
             "ES_Version=${{ github.event.release.tag_name }}"
-          tags: liangliangyy/elasticsearch-analysis-ik:${{ github.event.release.tag_name }}
+          tags: seaear/elasticsearch-analysis-ik:${{ github.event.release.tag_name }}
